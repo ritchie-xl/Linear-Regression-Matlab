@@ -12,3 +12,4 @@ hx = X*theta-y;
 J=(hx'*hx)/2/m;
 
 end
+

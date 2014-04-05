@@ -76,7 +76,7 @@ pause;
 fprintf('Solving with normal equations...\n');
 
 %% Load Data
-data = csvread('data2.txt');
+data = csvread('data.txt');
 X = data(:, 1:2);
 y = data(:, 3);
 m = length(y);
