@@ -60,7 +60,7 @@ X=[1650 3];
 X(1)=(X(1)-mu(1))/2/sigma(1);
 X(2)=(X(2)-mu(2))/2/sigma(2);
 X=[1 X];
-price = X*theta; % You should change this
+price = X*theta;
 
 
 % ============================================================
@@ -94,10 +94,9 @@ fprintf('\n');
 
 
 % Estimate the price of a 1650 sq-ft, 3 br house
-% ====================== YOUR CODE HERE ======================
 X=[1650 3];
 X=[1 X];
-price = X*theta; % You should change this
+price = X*theta;
 
 % ============================================================
 
